@@ -58,7 +58,7 @@ function App() {
     <main>
       <Tours tours={tours} removeTour={removeTour}/>
     </main>
-  );
+  )
 }
 
 export default App;
