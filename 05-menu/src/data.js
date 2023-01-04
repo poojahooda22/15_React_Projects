@@ -12,7 +12,7 @@ const menu = [
       title: 'diner double',
       category: 'lunch',
       price: 13.99,
-      img: 'https://img.freepik.com/premium-photo/juicy-fresh-tomato-bread-burger-black-empty-background-with-greens-beef-pork-chicken-chee_151517-2.jpg?w=826',
+      img: 'https://img.freepik.com/premium-photo/assorted-indian-recipes-food-various_79295-7226.jpg?w=900',
       desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
     },
     {
@@ -36,7 +36,7 @@ const menu = [
       title: 'egg attack',
       category: 'lunch',
       price: 22.99,
-      img: 'https://img.freepik.com/premium-photo/flat-lay-composition-healthy-vegetables_23-2148190196.jpg?w=826',
+      img: 'https://img.freepik.com/free-photo/top-view-bowls-with-indian-food_23-2148723454.jpg?w=996&t=st=1672766262~exp=1672766862~hmac=17f7becb768efcf53acd3dc1169672c206ff9606ad5116da66f3142895da693d',
       desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
     },
     {
