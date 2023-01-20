@@ -7,7 +7,7 @@ function App() {
   const[list, setList] = useState([]);
   const[isEditing, setIsEditing] = useState(false);
   const[editID, setEditID] = useState(null);
-  const[alert, setAlert] = useState({show: false, msg:'', type:''});
+  const[alert, setAlert] = useState({show: true, msg:'hello World', type:'success'});
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -22,6 +22,7 @@ function App() {
       //show alert
       const newItem = {id: new Date().getTime().toString(), title:name};
       setList([...list, newItem]);
+      setName('')
     }
   }
 
