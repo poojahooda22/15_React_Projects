@@ -20,8 +20,6 @@ const AppProvider = ({ children }) => {
     setIsModalOpen(false);
   };
 
-  
-
   return (
     <AppContext.Provider
       value={{
