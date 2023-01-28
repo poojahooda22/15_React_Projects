@@ -18,10 +18,15 @@ const Navbar = () => {
                 <ul className='nav-links'>
                     <li>
                         <button className='link-btn'>Products</button>
-                        <button className='link-btn'>Developers</button>
-                        <button className='link-btn'>Company</button>
                     </li>
+                    <li>
+                        <button className='link-btn'>Developers</button>
+                    </li>
+                    <li>
+                        <button className='link-btn'>Company</button>
+                    </li>                                     
                 </ul>
+                <button className='btn sigin-btn'>Sign In</button>
             </div>
         </nav>
     )
