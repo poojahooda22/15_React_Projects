@@ -19,25 +19,31 @@ const Navbar = () => {
       }
     };
     return (
-        <nav className="nav">
+        <nav className="nav" onMouseOver={handleSubmenu}>
             <div className='nav-center'>
                 <div className='nav-header '>
                     <img src={logo} className="nav-logo" alt="React"/>
-                    <button className='btn toggle-btn' onClick={openSider}>
+                    <button className='btn toggle-btn' onClick={openSidebar}>
                         <FaBars/>
                     </button>
                 </div>
                 <ul className='nav-links'>
-                    <li>
-                        <button className='link-btn'>Products</button>
-                    </li>
-                    <li>
-                        <button className='link-btn'>Developers</button>
-                    </li>
-                    <li>
-                        <button className='link-btn'>Company</button>
-                    </li>                                     
-                </ul>
+          <li>
+            <button className='link-btn' onMouseOver={displaySubmenu}>
+              products
+            </button>
+          </li>
+          <li>
+            <button className='link-btn' onMouseOver={displaySubmenu}>
+              developers
+            </button>
+          </li>
+          <li>
+            <button className='link-btn' onMouseOver={displaySubmenu}>
+              company
+            </button>
+          </li>
+        </ul>
                 <button className='btn sigin-btn'>Sign In</button>
             </div>
         </nav>
