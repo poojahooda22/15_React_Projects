@@ -8,7 +8,11 @@ const AppProvider = ({ children }) => {
   const [query, setQuery] = useState('batman')
   const { isLoading, error, data: movies } = useFetch(`&s=${query}`)
 
-  
+  return (
+    <AppContext.Provider value={{ isLoading, error, movies, query, setQuery }}>
+      {children}
+    </AppContext.Provider>
+  )
 }
 // make sure use
 export const useGlobalContext = () => {
