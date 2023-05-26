@@ -9,6 +9,7 @@ function App() {
       <h2>Our Reviews</h2>
       <div className="underline"></div>
       <Review/>
+      
       </div>
     </section>
   );
