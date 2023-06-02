@@ -40,10 +40,7 @@ const App = () => {
       <h1>{state.countt}</h1>
 
       <button
-      onClick = {() => {
-        dispatch({type: "INCREMENT"});
-        dispatch({type: "toggleShowText"});
-      }}
+      
       >
         Click Here
         </button>
