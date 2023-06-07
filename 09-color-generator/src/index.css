@@ -170,7 +170,15 @@ input {
   color: var(--clr-white);
   cursor: pointer;
 }
-
+@media screen and (max-width: 576px) {
+  .container h3 {
+    font-size: 1rem;
+  }
+  input,
+  .btn {
+    font-size: 0.85rem;
+  }
+}
 input.error {
   border: 2px solid var(--clr-red-dark);
 }
